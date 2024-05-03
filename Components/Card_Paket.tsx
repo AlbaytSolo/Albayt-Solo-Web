@@ -36,7 +36,7 @@ const Card_Paket = ({paketID, img, harga, title, jadwal, durasi, hotel, totalsea
         <div>
             <div className='bg-white border shadow-lg h-full rounded-xl duration-300 hover:-translate-y-2 hover:shadow-xl'>
                 <div className='flexCenter'>
-                    <Image src={img} alt='paket' width={450} height={450} className='h-36 object-cover rounded-t-xl'/>
+                    <img src={img} alt='paket' width={450} height={450} className='h-36 object-cover rounded-t-xl'/>
                 </div>
                 <div className='mx-4 mt-4'>
                     <div className='text-center items-center'>
