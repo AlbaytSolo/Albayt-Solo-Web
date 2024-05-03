@@ -148,7 +148,7 @@ export default function Paket() {
                 </div>
               </div>
               <div className="mt-4 h-1 w-[60%] rounded opacity-40 bg-slate-950"></div>
-              <Link href='https://wa.me/628122586045' className='w-full' target='_blank' rel="noopener noreferrer">
+              <Link href={`https://wa.me/628122586045?text=Assalammu'alaikum Al-Bayt Solo. Saya ingin mengetahui lebih lanjut paket dari website  yaitu paket ${currentPage?.title}. Apakah bisa dijelaskan lebih lanjut ?`} className='w-full' target='_blank' rel="noopener noreferrer">
                 <div
                     className="flex items-center bg-[#208942] text-gray font-semibold py-2 px-4 rounded justify-center space-x-4 text-zinc-50 w-full mt-3 duration-200 hover:bg-black">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
