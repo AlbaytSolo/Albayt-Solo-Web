@@ -223,11 +223,11 @@ const Order = () => {
 
         {showConfirmation && (
             <div className="fixed inset-0 z-10 overflow-y-auto bg-gray-500 bg-opacity-50 flex justify-center items-center">
-                <div className="bg-white p-8 rounded-md shadow-md w-[50%]">
-                    <p className="text-md font-semibold mb-7">Apakah Anda yakin ingin melakukan pembayaran? Harap periksa kembali data yang anda masukkan, pastikan data tersebut sudah benar.</p>
+                <div className="bg-white p-8 rounded-md shadow-md w-[80%] lg:w-[50%]">
+                    <p className="text-[12px] lg:text-[16px] font-semibold mb-7 text-justify">Apakah Anda yakin ingin melakukan pembayaran? Harap periksa kembali data yang anda masukkan, pastikan data tersebut sudah benar.</p>
                     <div className="flex justify-end">
-                        <button onClick={() => handleKonfirmasiPembayaran(true)} className="px-4 py-2 bg-green-500 hover:bg-green-800 text-white rounded-md mr-4">Ya</button>
-                        <button onClick={() => handleKonfirmasiPembayaran(false)} className="px-4 py-2 bg-red-500 hover:bg-red-800 text-white rounded-md">Tidak</button>
+                        <button onClick={() => handleKonfirmasiPembayaran(true)} className="px-4 py-2 bg-green-500 hover:bg-green-800 text-white rounded-md mr-4 text-[14px] lg:text-[18px]">Ya</button>
+                        <button onClick={() => handleKonfirmasiPembayaran(false)} className="px-4 py-2 bg-red-500 hover:bg-red-800 text-white rounded-md text-[14px] lg:text-[18px]">Tidak</button>
                     </div>
                 </div>
             </div>
