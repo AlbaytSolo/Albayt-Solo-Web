@@ -353,9 +353,9 @@ export default function Paket() {
                       {currentPage?.hotel?.map((item: HotelProps, index: number) => (
                           <div key={index} className='my-3'>
                             <p className='font-bold mb-2'>{item.nama_hotel}</p>
-                            <div className='grid xl:grid-cols-3 sm:grid-cols-1 gap-4'>
+                            <div className='grid lg:grid-cols-3 grid-cols-1 gap-4'>
                               {item.url_hotel?.map((imageUrl: string, i) => (
-                                  <img key={i} className='xl:w-full h-32 object-cover' alt={`hotel ${index}`}
+                                  <img key={i} className='w-full lg:h-32 h-40 object-cover' alt={`hotel ${index}`}
                                        src={imageUrl}></img>
                               ))}
                             </div>
